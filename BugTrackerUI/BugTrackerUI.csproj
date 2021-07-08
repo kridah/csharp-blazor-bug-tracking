@@ -14,8 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <TypeScriptCompile Include="Pages\NewBug.razor" />
-    <TypeScriptCompile Include="Shared\LeftNav.razor" />
+    <EmbeddedResource Include="Pages\NewBug.razor" />
+    <EmbeddedResource Include="Shared\LeftNav.razor" />
   </ItemGroup>
 
 </Project>

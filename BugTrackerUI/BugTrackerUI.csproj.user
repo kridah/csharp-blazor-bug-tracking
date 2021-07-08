@@ -2,13 +2,13 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <TypeScriptCompile Update="Pages\NewBug.razor">
+    <EmbeddedResource Update="Pages\NewBug.razor">
       <SubType>Code</SubType>
-    </TypeScriptCompile>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Update="Shared\LeftNav.razor">
+    <EmbeddedResource Update="Shared\LeftNav.razor">
       <SubType>Code</SubType>
-    </TypeScriptCompile>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
