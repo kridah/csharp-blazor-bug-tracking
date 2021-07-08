@@ -2,9 +2,9 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <EmbeddedResource Update="Pages\NewBug.razor">
+    <Page Update="Pages\NewBug.razor">
       <SubType>Code</SubType>
-    </EmbeddedResource>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Shared\LeftNav.razor">
